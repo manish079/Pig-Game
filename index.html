@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/fav_icon.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <title>PIG GAME | Manish Prajapat</title>
+  </head>
+  <body>
+    <div class="center">
+      <div>
+        <h1 class="play">Click on the Slide to play</h1>
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide cars-1"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="./Easy/index.html">
+              <img
+                class="d-block w-100"
+                src="./img/img1.png"
+                alt="First slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="caption">BASIC LEVEL</h1>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="./Medium/index.html">
+              <img
+                class="d-block w-100"
+                src="./img/img2.png"
+                alt="Second slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="caption">MIDDLE LEVEL</h1>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="./Advance/index.html">
+              <img
+                class="d-block w-100"
+                src="./img/img3.png"
+                alt="Third slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="caption">ADVANCED LEVEL</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
