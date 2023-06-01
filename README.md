@@ -1,4 +1,13 @@
 # Pig-Game
+
+- This awsome game developed in `HTML`, `CSS` and `JS`. `Pig game` experience to the next level with `easy`, `medium`, and `advanced` difficulty `levels`. 
+- Roll the dice, accumulate points.
+
+## Check it out!
+Check it [here](https://awsome-pig-game-manish.netlify.app/) !
+
+
+
 Screenshot -1:
 ![Screenshot (861)](https://user-images.githubusercontent.com/84091739/225117481-3c479439-f852-4420-97d6-59108f76c14b.png)
 Screenshot -2: 
